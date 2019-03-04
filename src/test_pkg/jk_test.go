@@ -13,6 +13,7 @@ func TestPalindrome(t *testing.T) {
 		"a": true,
 		"ba": false,
 		"Hello, olleH": true,
+		"Hello, *****olleH": true,
 	}
 	
 	for s, res := range tData {
