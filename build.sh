@@ -1,7 +1,4 @@
 #!/bin/bash
 
-cd src
-make
-cd ..
-cd bin
-./MyGolang
+cd src/test_pkg
+go test -v
